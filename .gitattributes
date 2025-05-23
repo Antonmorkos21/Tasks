@@ -1,5 +1,7 @@
-*.dart linguist-language=Dart
-*.cmake linguist-detectable=false
-*.cpp linguist-detectable=false
-*.h linguist-detectable=false
-*.c linguist-detectable=false
+android/src/main/cpp/** linguist-vendored
+ios/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+CMakeLists.txt linguist-vendored
+*.cmake linguist-vendored
